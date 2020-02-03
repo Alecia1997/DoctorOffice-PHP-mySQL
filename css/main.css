@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+main {
+    width: 70%;
+    height: 1500px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+h1 {
+    font-family: "Helvetica","Impact",serif;
+    text-align: center;
+    color:white;
+    padding: 80px 0px 0px 0px;
+    margin:0px;
+}
+h2 {
+    font-family: "Helvetica","Impact",serif;
+    text-align: center;
+    color:black;
+    padding: 0px 0px 0px 0px;
+    margin:0px; 
+}
+h3,h4,h5,h6 {
+    font-family: "Helvetica","Impact",serif;
+    text-align: center;
+    color:black;
+    padding: 20px 0px 0px 0px;
+    margin:0px;
+}
+
+p {
+    color:black;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+
+
+#navigation {
+    height:100px;
+    padding: 5px 0px 5px 0px; 
+
+}
+#page_links {
+    width:650px;
+    height: 30px;
+    margin: 50px 20px 0px 970px;
+
+}
+
+ul a {
+    color:black;
+    font-size: 15px;
+    font-family:fantasy;
+  
+
+}
+
+.logo_section {
+    height: 250px;
+    
+
+}
+.logo {
+    height: 200px;
+    width:200px;
+
+    margin: 0px 0px 0px 700px;
+    padding: 50px 0px 0px 0px;
+}
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.box_left {
+    width:1000px;
+    height:600px;
+    background-color: yellow;
+    float:left;
+    position: relative;
+}
+.box_left img {
+    height: 100%;
+    width: 100%;
+}
+
+.box_right {
+    height: 600px;
+    width:600px;
+    background-color:#b83363;
+    float:right;
+    position: relative;
+}
+.box_right img {
+     height: 100%;
+    width: 100%;
+}
+.box_middle {
+    height: 600px;
+    width:1600px;
+    background-color:aqua;
+    float:left;
+    position: relative;
+}
+.box_middle img {
+    height: 100%;
+    width: 100%;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f5b1aa;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f9ebc8;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #a8b6d3;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.box_left:hover .overlay1 {
+  height: 50%;
+}
+.box_right:hover .overlay2 {
+   height: 50%;  
+}
+.box_middle:hover .overlay3 {
+   height: 50%;  
+}
+.text {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.HeaderBar {
+    height:200px;
+    background-color: #59597d;
+}
+
+.Yeah {
+    height: 600px;
+
+   
+}
+.SomeInfo {
+    height: 600px;
+
+}
+
+.PImage {
+    height: 400px;
+    width: 600px;
+    background-color:pink;
+    display: inline-block;
+    margin: 100px 0px 0px 0px;
+}
+.PImage img {
+    height: 100%;
+    width:100%;
+}
+
+.PText {
+    height: 550px;
+    width:500px;
+  background-color: aqua;
+    float: right;
+    margin: 100px 0px 0px 0px;
+}
+
+.PImage2 {
+    height: 600px;
+    width: 600px;
+    background-color:pink;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.PImage2 img {
+    height: 100%;
+    width:100%;
+}
+
+
+
+
+
+.room-table {
+    width: 100%; 
+}
+.room-table td {
+    border: 1px solid black;
+    padding:10px;
+}
+
+.doctor-table {
+    width: 100%;
+ 
+}
+.doctor-table th {
+    font-family: "Helvetica";
+    font-size: 25px;
+    color: #59597d;
+
+}
+.doctor-table td {
+   width: 20%;
+    text-align: center;
+    font-family: "Helvetica";
+    border: 1px solid black;
+
+}
+
+
+.doctor-table td img {
+    width: 100%;
+  
+}
+
+#image-heading {
+    width: 20%;
+}
+
+#name-heading {
+    width: 5%;
+}
+
+#specialisation-heading {
+    width: 5%;
+}
+li {
+    font-family: fontOne;
+    color: #b83363;
+    display: inline;
+    margin: 20px;
+}
+ul {
+    color:#b83363;
+}
+
+a{ 
+text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.block {
+    height: 50px;
+    width:50px;
+    background-color:pink;
+
+}
+.ImageBox {
+    height: 400px;
+    background-color: yellow;
+    margin: 20px 0px 0px 0px;
+}
+.ImageBox img {
+     height: 100%;
+    width:100%;
+}
+.headerImageBox {
+    height: 550px;
+    
+
+}
+.headerImageBox2 {
+    height: 400px;
+}
+.headerImageBox2 img {
+    height: 100%;
+    width:100%;
+    
+}
+.headerImageBox img {
+    height: 100%;
+    width:100%;
+    
+}
+
+
+.patient-table {
+    width: 100%;
+}
+
+.patient-table td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+#heading-patient-name {
+    width: 20%;
+}
+
+#heading-patient-medical {
+    width: 20%;
+}
+
+#heading-patient-appointment {
+    width: 20%;
+}
+
+#heading-patient-number {
+    width: 20%;
+}
+
+#heading-patient-delete {
+    width: 10%;
+}
+label,input,select,.error {
+    display: inline-block;
+    width: 30%;
+    margin: 5px 0px 0px 0px;
+}
+
+input[type=submit] {
+    display: block;
+    width: 100%;
+    background-color: #59597d;
+    color:white;
+    padding: 10px;
+   
+}
+.room-table {
+    margin: 0px 0px 20px 0px;
+}
+.appointment-table {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+
+.appointment-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+#heading-appointment-id {
+    width: 10%;
+}
+#heading-appointment-time {
+    width: 20%;
+}
+#heading-appointment-date {
+    width: 20%;
+}
+#heading-appointment-patient {
+    width: 40%;
+}
+#heading-appointment-doctor {
+    width: 50%;
+}
+
+h3 {
+    background-color: #b83363;
+    color: white;
+    padding: 25px 0px 25px 0px;
+    margin: 20px 0px 20px 0px;
+}
+#groups {
+    margin: 10px;
+ 
+}
+
+.form-row {
+    color: black;
+    margin: 0px 0px 0px 20px;
+}
+.someSpace {
+    height: 200px;
+    background-color:white;
+}
